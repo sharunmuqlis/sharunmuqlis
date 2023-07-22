@@ -1,0 +1,383 @@
+# compiler: R8
+# compiler_version: 3.1.66
+# pg_map_id: e7e2ff4
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"1.0"}
+github.ryuunoakaihitomi.poweract.ExternalUtils -> github.ryuunoakaihitomi.poweract.ExternalUtils:
+    1:1:void <init>():34:34 -> <init>
+    1:26:void disableExposedComponents(android.content.Context):55:80 -> disableExposedComponents
+    27:29:void disableExposedComponents(android.content.Context):74:74 -> disableExposedComponents
+    38:42:void disableExposedComponents(android.content.Context):83:87 -> disableExposedComponents
+    1:4:void enableLog(boolean):104:107 -> enableLog
+    1:11:boolean isExposedComponentAvailable(android.content.Context):144:154 -> isExposedComponentAvailable
+    1:1:void setUserGuideRunnable(java.lang.Runnable):130:130 -> setUserGuideRunnable
+github.ryuunoakaihitomi.poweract.PowerAct -> github.ryuunoakaihitomi.poweract.PowerAct:
+    1:1:void <init>():40:40 -> <init>
+    1:44:void requestAction(android.app.Activity,github.ryuunoakaihitomi.poweract.Callback,int):128:171 -> a
+    45:50:void requestAction(android.app.Activity,github.ryuunoakaihitomi.poweract.Callback,int):144:149 -> a
+    1:1:void lockScreen(android.app.Activity):53:53 -> lockScreen
+    2:2:void lockScreen(android.app.Activity,github.ryuunoakaihitomi.poweract.Callback):66:66 -> lockScreen
+    1:1:void reboot(android.app.Activity):105:105 -> reboot
+    2:7:void reboot(android.app.Activity,github.ryuunoakaihitomi.poweract.Callback):119:124 -> reboot
+    1:1:void showPowerDialog(android.app.Activity):76:76 -> showPowerDialog
+    2:7:void showPowerDialog(android.app.Activity,github.ryuunoakaihitomi.poweract.Callback):89:94 -> showPowerDialog
+github.ryuunoakaihitomi.poweract.PowerActX -> github.ryuunoakaihitomi.poweract.PowerActX:
+    1:1:void <init>():36:36 -> <init>
+    1:1:void bootloader():203:203 -> bootloader
+    2:2:void bootloader(github.ryuunoakaihitomi.poweract.Callback):212:212 -> bootloader
+    3:3:void bootloader(boolean):222:222 -> bootloader
+    4:4:void bootloader(github.ryuunoakaihitomi.poweract.Callback,boolean):234:234 -> bootloader
+    1:1:void customReboot(java.lang.String):248:248 -> customReboot
+    2:2:void customReboot(java.lang.String,github.ryuunoakaihitomi.poweract.Callback):259:259 -> customReboot
+    3:3:void customReboot(java.lang.String,boolean):270:270 -> customReboot
+    4:8:void customReboot(java.lang.String,github.ryuunoakaihitomi.poweract.Callback,boolean):288:292 -> customReboot
+    1:1:void lockScreen():51:51 -> lockScreen
+    2:2:void lockScreen(github.ryuunoakaihitomi.poweract.Callback):60:60 -> lockScreen
+    1:1:void reboot():122:122 -> reboot
+    2:2:void reboot(github.ryuunoakaihitomi.poweract.Callback):131:131 -> reboot
+    3:3:void reboot(boolean):141:141 -> reboot
+    4:4:void reboot(github.ryuunoakaihitomi.poweract.Callback,boolean):151:151 -> reboot
+    1:1:void recovery():162:162 -> recovery
+    2:2:void recovery(github.ryuunoakaihitomi.poweract.Callback):171:171 -> recovery
+    3:3:void recovery(boolean):181:181 -> recovery
+    4:4:void recovery(github.ryuunoakaihitomi.poweract.Callback,boolean):192:192 -> recovery
+    1:1:void restartSystemUi():378:378 -> restartSystemUi
+    2:2:void restartSystemUi(github.ryuunoakaihitomi.poweract.Callback):390:390 -> restartSystemUi
+    1:1:void safeMode():304:304 -> safeMode
+    2:2:void safeMode(github.ryuunoakaihitomi.poweract.Callback):314:314 -> safeMode
+    3:3:void safeMode(boolean):325:325 -> safeMode
+    4:9:void safeMode(github.ryuunoakaihitomi.poweract.Callback,boolean):339:344 -> safeMode
+    1:1:void shutdown():71:71 -> shutdown
+    2:2:void shutdown(github.ryuunoakaihitomi.poweract.Callback):80:80 -> shutdown
+    3:3:void shutdown(boolean):90:90 -> shutdown
+    4:9:void shutdown(github.ryuunoakaihitomi.poweract.Callback,boolean):105:110 -> shutdown
+    1:1:void softReboot():356:356 -> softReboot
+    2:2:void softReboot(github.ryuunoakaihitomi.poweract.Callback):365:365 -> softReboot
+github.ryuunoakaihitomi.poweract.PowerButton -> github.ryuunoakaihitomi.poweract.PowerButton:
+    android.view.View$OnLongClickListener mOnLongClickListener -> b
+    android.view.View$OnClickListener mOnClickListener -> a
+    int mSize -> e
+    boolean mPrepareToUse -> c
+    boolean mHasCustomMeasure -> d
+    1:28:void <init>(android.content.Context,android.util.AttributeSet):57:84 -> <init>
+    1:1:void lockScreen():88:88 -> a
+    1:1:void lambda$new$0(android.view.View):62 -> a
+    2:2:android.app.Activity contextToActivityNoThrow(android.content.Context):137:137 -> a
+    2:2:void lockScreen():88 -> a
+    2:2:void lambda$new$0(android.view.View):62 -> a
+    3:6:void lockScreen():89:92 -> a
+    3:6:void lambda$new$0(android.view.View):62 -> a
+    7:7:void lambda$new$0(android.view.View):63:63 -> a
+    8:16:void initNormalStyles():101:109 -> a
+    17:21:android.graphics.Bitmap github.ryuunoakaihitomi.poweract.internal.util.Utils.makeTintBitmap(android.graphics.Bitmap,int):261:265 -> a
+    17:21:void initNormalStyles():109 -> a
+    22:26:void initNormalStyles():109:113 -> a
+    1:2:boolean lambda$new$1(android.view.View):69:70 -> b
+    3:3:android.app.Activity contextToActivityNoThrow(android.content.Context):137:137 -> b
+    3:3:boolean lambda$new$1(android.view.View):70 -> b
+    4:6:boolean lambda$new$1(android.view.View):70:72 -> b
+    7:7:void lockScreen():88:88 -> b
+    7:7:boolean lambda$new$1(android.view.View):74 -> b
+    8:8:android.app.Activity contextToActivityNoThrow(android.content.Context):137:137 -> b
+    8:8:void lockScreen():88 -> b
+    8:8:boolean lambda$new$1(android.view.View):74 -> b
+    9:12:void lockScreen():89:92 -> b
+    9:12:boolean lambda$new$1(android.view.View):74 -> b
+    13:15:boolean lambda$new$1(android.view.View):76:78 -> b
+    1:2:void onMeasure(int,int):129:130 -> onMeasure
+    1:2:void setOnClickListener(android.view.View$OnClickListener):145:146 -> setOnClickListener
+    1:2:void setOnLongClickListener(android.view.View$OnLongClickListener):159:160 -> setOnLongClickListener
+    1:1:void unlockSize():124:124 -> unlockSize
+github.ryuunoakaihitomi.poweract.internal.a.ExternalUtils$$ExternalSyntheticOutline0 -> github.ryuunoakaihitomi.poweract.internal.a.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    java.lang.StringBuilder github.ryuunoakaihitomi.poweract.ExternalUtils$$InternalSyntheticOutline$17$62849e5acdd440070661e1f02005f53944ff900f7c8834da2bac14272a1c043d$0.m(java.lang.String) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+github.ryuunoakaihitomi.poweract.internal.pa.PaConstants -> github.ryuunoakaihitomi.poweract.internal.pa.PaConstants:
+    1:1:void <init>():19:19 -> <init>
+github.ryuunoakaihitomi.poweract.internal.pa.PaFragment -> github.ryuunoakaihitomi.poweract.internal.b.a:
+    android.app.Activity mAssociatedActivity -> h
+    android.app.admin.DevicePolicyManager mDpm -> f
+    int mAction -> b
+    github.ryuunoakaihitomi.poweract.Callback mCallback -> e
+    boolean mHasRequestedAccessibility -> c
+    github.ryuunoakaihitomi.poweract.internal.util.VerboseTimingLogger mUserDelayLogger -> i
+    int mRequestCode -> a
+    boolean mFirstRun -> d
+    android.content.ComponentName mAdminReceiverComponentName -> g
+    1:24:void <init>():44:67 -> <init>
+    1:1:void access$000(github.ryuunoakaihitomi.poweract.internal.pa.PaFragment,int,int):44:44 -> a
+    2:27:void requestAction(github.ryuunoakaihitomi.poweract.Callback,int):88:113 -> a
+    28:31:int github.ryuunoakaihitomi.poweract.internal.util.ShizukuCompat.checkSelfPermission(android.content.Context):29:32 -> a
+    28:31:void requestAction(github.ryuunoakaihitomi.poweract.Callback,int):113 -> a
+    32:32:int github.ryuunoakaihitomi.poweract.internal.util.Utils.randomNaturalNumber():257:257 -> a
+    32:32:void requestAction(github.ryuunoakaihitomi.poweract.Callback,int):116 -> a
+    33:43:void requestAction(github.ryuunoakaihitomi.poweract.Callback,int):116:126 -> a
+    44:47:void github.ryuunoakaihitomi.poweract.internal.util.ShizukuCompat.requestPermission(android.app.Fragment,int):37:40 -> a
+    44:47:void requestAction(github.ryuunoakaihitomi.poweract.Callback,int):126 -> a
+    48:64:void requestAction(github.ryuunoakaihitomi.poweract.Callback,int):127:143 -> a
+    65:72:boolean github.ryuunoakaihitomi.poweract.internal.util.Utils.isParentProfile(android.content.Context):271:278 -> a
+    65:72:void requestAction(github.ryuunoakaihitomi.poweract.Callback,int):145 -> a
+    73:139:void requestAction(github.ryuunoakaihitomi.poweract.Callback,int):146:212 -> a
+    140:156:void requestAction(github.ryuunoakaihitomi.poweract.Callback,int):210:226 -> a
+    157:157:int github.ryuunoakaihitomi.poweract.internal.util.Utils.randomNaturalNumber():257:257 -> a
+    157:157:void startActivitySafely(android.content.Intent,boolean,java.lang.Runnable):290 -> a
+    158:173:void startActivitySafely(android.content.Intent,boolean,java.lang.Runnable):290:305 -> a
+    174:179:void shizukuRequestPermissionResult(int,int):311:316 -> a
+    180:183:boolean github.ryuunoakaihitomi.poweract.internal.util.ShizukuCompat.shouldShowRequestPermissionRationale(android.app.Fragment):45:48 -> a
+    180:183:void shizukuRequestPermissionResult(int,int):316 -> a
+    184:187:void shizukuRequestPermissionResult(int,int):317:320 -> a
+    188:188:void shizukuRequestPermissionResult(int,int):319:319 -> a
+    189:191:void callShizuku():326:328 -> a
+    192:192:void github.ryuunoakaihitomi.poweract.internal.pa.PaFragment.preparePowerBinder():284:284 -> a
+    192:192:void callShizuku():334 -> a
+    193:198:void callShizuku():335:340 -> a
+    199:201:void callShizuku():339:341 -> a
+    202:202:void github.ryuunoakaihitomi.poweract.internal.pa.PaFragment.preparePowerBinder():284:284 -> a
+    202:202:void callShizuku():330 -> a
+    203:225:void callShizuku():331:353 -> a
+    226:228:void failed(java.lang.String):375:375 -> a
+    231:231:void failed(java.lang.String):378:378 -> a
+    232:232:void github.ryuunoakaihitomi.poweract.internal.pa.PaFragment.detach():383:383 -> a
+    232:232:void failed(java.lang.String):379 -> a
+    1:2:void done():369:370 -> b
+    3:3:void github.ryuunoakaihitomi.poweract.internal.pa.PaFragment.detach():383:383 -> b
+    3:3:void done():371 -> b
+    1:7:void initialize():77:83 -> c
+    1:3:void lambda$requestAction$0():180:182 -> d
+    1:1:void lambda$requestAction$1():226:226 -> e
+    1:4:void requireAccessibilityAction():358:361 -> f
+    5:9:void requireAccessibilityAction():360:364 -> f
+    1:15:void onActivityResult(int,int,android.content.Intent):251:265 -> onActivityResult
+    1:3:void onAttach(android.content.Context):71:73 -> onAttach
+    1:22:void onDetach():388:409 -> onDetach
+    23:23:void onDetach():404:404 -> onDetach
+    1:9:void onRequestPermissionsResult(int,java.lang.String[],int[]):271:279 -> onRequestPermissionsResult
+    10:10:void onRequestPermissionsResult(int,java.lang.String[],int[]):273:273 -> onRequestPermissionsResult
+    1:12:void onResume():233:244 -> onResume
+    1:1:void onTrimMemory(int):423:423 -> onTrimMemory
+github.ryuunoakaihitomi.poweract.internal.pa.PaFragment$1 -> github.ryuunoakaihitomi.poweract.internal.b.a$a:
+    github.ryuunoakaihitomi.poweract.internal.pa.PaFragment this$0 -> a
+    1:1:void <init>(github.ryuunoakaihitomi.poweract.internal.pa.PaFragment):118:118 -> <init>
+    1:2:void onRequestPermissionResult(int,int):121:122 -> onRequestPermissionResult
+github.ryuunoakaihitomi.poweract.internal.pa.PaReceiver -> github.ryuunoakaihitomi.poweract.internal.pa.PaReceiver:
+    1:1:void <init>():25:25 -> <init>
+    1:5:void onEnabled(android.content.Context,android.content.Intent):31:35 -> onEnabled
+    6:14:void onEnabled(android.content.Context,android.content.Intent):34:42 -> onEnabled
+github.ryuunoakaihitomi.poweract.internal.pa.PaService -> github.ryuunoakaihitomi.poweract.internal.pa.PaService:
+    android.util.SparseArray sGlobalActionMap -> b
+    boolean sIsBroadcastRegistered -> e
+    android.content.BroadcastReceiver mBroadcastReceiver -> a
+    java.lang.String token -> c
+    github.ryuunoakaihitomi.poweract.Callback callback -> d
+    1:8:void <clinit>():123:130 -> <clinit>
+    1:14:void <init>():53:66 -> <init>
+    1:1:java.lang.String access$000():53:53 -> a
+    2:2:github.ryuunoakaihitomi.poweract.Callback access$102(github.ryuunoakaihitomi.poweract.Callback):53:53 -> a
+    3:20:boolean sendAction(android.content.Context,java.lang.String,github.ryuunoakaihitomi.poweract.Callback):134:151 -> a
+    21:31:void perform(int):170:180 -> a
+    21:31:void access$200(github.ryuunoakaihitomi.poweract.internal.pa.PaService,int):53 -> a
+    1:1:github.ryuunoakaihitomi.poweract.Callback access$100():53:53 -> b
+    1:10:void onServiceConnected():186:195 -> onServiceConnected
+    11:32:void loadForegroundNotification():241:262 -> onServiceConnected
+    11:32:void onServiceConnected():196 -> onServiceConnected
+    33:80:void loadForegroundNotification():261:308 -> onServiceConnected
+    33:80:void onServiceConnected():196 -> onServiceConnected
+    81:82:int github.ryuunoakaihitomi.poweract.internal.util.Utils.randomNonZero():252:253 -> onServiceConnected
+    81:82:void loadForegroundNotification():309 -> onServiceConnected
+    81:82:void onServiceConnected():196 -> onServiceConnected
+    83:89:void loadForegroundNotification():310:316 -> onServiceConnected
+    83:89:void onServiceConnected():196 -> onServiceConnected
+    90:94:void onServiceConnected():200:204 -> onServiceConnected
+    1:3:boolean onUnbind(android.content.Intent):225:227 -> onUnbind
+    1:2:android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter):156:157 -> registerReceiver
+    1:3:void unregisterReceiver(android.content.BroadcastReceiver):162:164 -> unregisterReceiver
+github.ryuunoakaihitomi.poweract.internal.pa.PaService$1 -> github.ryuunoakaihitomi.poweract.internal.pa.PaService$a:
+    github.ryuunoakaihitomi.poweract.internal.pa.PaService this$0 -> a
+    1:1:void <init>(github.ryuunoakaihitomi.poweract.internal.pa.PaService):66:66 -> <init>
+    1:41:void onReceive(android.content.Context,android.content.Intent):70:110 -> onReceive
+    42:72:void onReceive(android.content.Context,android.content.Intent):83:113 -> onReceive
+github.ryuunoakaihitomi.poweract.internal.pax.IPaxService -> github.ryuunoakaihitomi.poweract.internal.c.a:
+    void killSystemUi() -> a
+github.ryuunoakaihitomi.poweract.internal.pax.IPaxService$Stub -> github.ryuunoakaihitomi.poweract.internal.c.a$a:
+    int $r8$clinit -> a
+    1:2:void <init>():24:25 -> <init>
+    1:17:boolean onTransact(int,android.os.Parcel,android.os.Parcel,int):48:64 -> onTransact
+    18:24:boolean onTransact(int,android.os.Parcel,android.os.Parcel,int):53:59 -> onTransact
+github.ryuunoakaihitomi.poweract.internal.pax.IPaxService$Stub$Proxy -> github.ryuunoakaihitomi.poweract.internal.c.a$a$a:
+    android.os.IBinder mRemote -> a
+    1:2:void <init>(android.os.IBinder):72:73 -> <init>
+    1:12:void killSystemUi():85:96 -> a
+    1:1:android.os.IBinder asBinder():77:77 -> asBinder
+github.ryuunoakaihitomi.poweract.internal.pax.PaxConsole -> github.ryuunoakaihitomi.poweract.internal.c.b:
+    github.ryuunoakaihitomi.poweract.internal.pax.PaxInterface sInterface -> a
+    1:1:void <init>():16:16 -> <init>
+    1:12:github.ryuunoakaihitomi.poweract.internal.pax.PaxInterface getInterface():21:32 -> a
+github.ryuunoakaihitomi.poweract.internal.pax.PaxExecApi -> github.ryuunoakaihitomi.poweract.internal.c.c:
+github.ryuunoakaihitomi.poweract.internal.pax.PaxExecutor -> github.ryuunoakaihitomi.poweract.internal.c.d:
+    1:1:void <init>():56:56 -> <init>
+    1:149:void main0(java.lang.String[]):74:222 -> a
+    150:192:void main0(java.lang.String[]):171:213 -> a
+    193:193:void main0(java.lang.String[]):210:210 -> a
+    194:199:void main0(java.lang.String[]):162:167 -> a
+    200:221:void main0(java.lang.String[]):132:153 -> a
+    222:222:void main0(java.lang.String[]):119:119 -> a
+    223:253:void main0(java.lang.String[]):93:123 -> a
+    254:261:void main0(java.lang.String[]):104:111 -> a
+    262:389:void main0(java.lang.String[]):98:225 -> a
+    390:436:void killSystemUi():234:280 -> a
+    437:441:void reboot(java.lang.String,boolean):287:291 -> a
+    1:6:void main(java.lang.String[]):64:69 -> main
+github.ryuunoakaihitomi.poweract.internal.pax.PaxExecutor$1 -> github.ryuunoakaihitomi.poweract.internal.c.d$a:
+    1:1:void <init>():173:173 -> <init>
+    1:3:void onServiceConnected(android.content.ComponentName,android.os.IBinder):176:178 -> onServiceConnected
+    4:8:github.ryuunoakaihitomi.poweract.internal.pax.IPaxService github.ryuunoakaihitomi.poweract.internal.pax.IPaxService$Stub.asInterface(android.os.IBinder):36:40 -> onServiceConnected
+    4:8:void onServiceConnected(android.content.ComponentName,android.os.IBinder):178 -> onServiceConnected
+    9:11:void onServiceConnected(android.content.ComponentName,android.os.IBinder):180:182 -> onServiceConnected
+github.ryuunoakaihitomi.poweract.internal.pax.PaxHandler -> github.ryuunoakaihitomi.poweract.internal.c.e:
+    android.app.Application sApplication -> a
+    1:3:void <clinit>():48:50 -> <clinit>
+    1:1:void <init>():37:37 -> <init>
+    1:3:void lambda$invoke$0(github.ryuunoakaihitomi.poweract.internal.util.CallbackHelper):112:114 -> a
+    4:17:void lambda$invoke$3(github.ryuunoakaihitomi.poweract.internal.pax.PaxExecApi,java.lang.String,java.lang.String,java.lang.String,android.os.Handler,github.ryuunoakaihitomi.poweract.internal.util.CallbackHelper,java.util.concurrent.ExecutorService):123:136 -> a
+    18:19:void github.ryuunoakaihitomi.poweract.internal.pax.PaxHandler.cancelUserGuide(java.util.concurrent.ScheduledExecutorService):143:144 -> a
+    18:19:void lambda$invoke$1(java.util.concurrent.ScheduledExecutorService,github.ryuunoakaihitomi.poweract.internal.util.CallbackHelper):128 -> a
+    20:21:void lambda$invoke$1(java.util.concurrent.ScheduledExecutorService,github.ryuunoakaihitomi.poweract.internal.util.CallbackHelper):129:130 -> a
+    1:2:void github.ryuunoakaihitomi.poweract.internal.pax.PaxHandler.cancelUserGuide(java.util.concurrent.ScheduledExecutorService):143:144 -> b
+    1:2:void lambda$invoke$2(java.util.concurrent.ScheduledExecutorService,github.ryuunoakaihitomi.poweract.internal.util.CallbackHelper):133 -> b
+    3:3:void lambda$invoke$2(java.util.concurrent.ScheduledExecutorService,github.ryuunoakaihitomi.poweract.internal.util.CallbackHelper):134:134 -> b
+    1:2:java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[]):56:57 -> invoke
+    3:3:java.lang.Object github.ryuunoakaihitomi.poweract.internal.util.Utils.arraySafeGet(java.lang.Object[],int,java.lang.Object):287:287 -> invoke
+    3:3:java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[]):57 -> invoke
+    4:15:java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[]):57:68 -> invoke
+    16:16:java.lang.Object github.ryuunoakaihitomi.poweract.internal.util.Utils.arraySafeGet(java.lang.Object[],int,java.lang.Object):287:287 -> invoke
+    16:16:java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[]):69 -> invoke
+    17:45:java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[]):69:97 -> invoke
+    46:46:boolean github.ryuunoakaihitomi.poweract.internal.util.ShizukuCompat.hasUserServiceSupport():56:56 -> invoke
+    46:46:java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[]):97 -> invoke
+    47:71:java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[]):98:122 -> invoke
+github.ryuunoakaihitomi.poweract.internal.pax.PaxInterface -> github.ryuunoakaihitomi.poweract.internal.c.f:
+    void customReboot(github.ryuunoakaihitomi.poweract.Callback,boolean,java.lang.String) -> a
+    void lockScreen(github.ryuunoakaihitomi.poweract.Callback) -> a
+    void safeMode(github.ryuunoakaihitomi.poweract.Callback,boolean) -> a
+    void bootloader(github.ryuunoakaihitomi.poweract.Callback,boolean) -> b
+    void softReboot(github.ryuunoakaihitomi.poweract.Callback) -> b
+    void killSystemUi(github.ryuunoakaihitomi.poweract.Callback) -> c
+    void shutdown(github.ryuunoakaihitomi.poweract.Callback,boolean) -> c
+    void reboot(github.ryuunoakaihitomi.poweract.Callback,boolean) -> d
+    void recovery(github.ryuunoakaihitomi.poweract.Callback,boolean) -> e
+github.ryuunoakaihitomi.poweract.internal.pax.PaxService -> github.ryuunoakaihitomi.poweract.internal.c.g:
+    1:1:void <init>():15:15 -> <init>
+    1:1:void killSystemUi():21:21 -> a
+    2:4:void github.ryuunoakaihitomi.poweract.internal.pax.PaxService.throwAsRemoteException(java.lang.Runnable):35:37 -> a
+    2:4:void killSystemUi():21 -> a
+    1:6:void killSystemUiInternal():25:30 -> b
+github.ryuunoakaihitomi.poweract.internal.util.CallbackHelper -> github.ryuunoakaihitomi.poweract.internal.d.a:
+    github.ryuunoakaihitomi.poweract.Callback mCallback -> a
+    1:2:void <init>(github.ryuunoakaihitomi.poweract.Callback):11:12 -> <init>
+    1:1:github.ryuunoakaihitomi.poweract.internal.util.CallbackHelper of(github.ryuunoakaihitomi.poweract.Callback):16:16 -> a
+    1:1:boolean github.ryuunoakaihitomi.poweract.internal.util.CallbackHelper.nonNull():30:30 -> done
+    1:1:void done():21 -> done
+    2:2:void done():21:21 -> done
+    1:1:boolean github.ryuunoakaihitomi.poweract.internal.util.CallbackHelper.nonNull():30:30 -> failed
+    1:1:void failed():26 -> failed
+    2:2:void failed():26:26 -> failed
+github.ryuunoakaihitomi.poweract.internal.util.DebugLog -> github.ryuunoakaihitomi.poweract.internal.d.b:
+    boolean enabled -> a
+    1:1:void d(java.lang.String,java.lang.String):28:28 -> a
+    2:2:void e(java.lang.String,java.lang.String,java.lang.Throwable):60:60 -> a
+    3:9:java.lang.String formatTag(java.lang.String):64:70 -> a
+    1:1:void e(java.lang.String,java.lang.String):56:56 -> b
+    1:1:void i(java.lang.String,java.lang.String):36:36 -> c
+    1:1:void v(java.lang.String,java.lang.String):20:20 -> d
+    1:1:void w(java.lang.String,java.lang.String):44:44 -> e
+github.ryuunoakaihitomi.poweract.internal.util.LibraryCompat -> github.ryuunoakaihitomi.poweract.internal.d.c:
+    1:2:boolean isLibsuAvailable():46:47 -> a
+    1:2:boolean isShizukuAvailable():52:53 -> b
+    1:1:boolean isShizukuPrepared():60:60 -> c
+github.ryuunoakaihitomi.poweract.internal.util.ReflectionUtils -> github.ryuunoakaihitomi.poweract.internal.d.d:
+    int $r8$clinit -> a
+    1:2:void <clinit>():19:20 -> <clinit>
+    1:1:boolean allClassesExist(java.lang.String[]):42:42 -> a
+    2:8:java.lang.Class github.ryuunoakaihitomi.poweract.internal.util.ReflectionUtils.findClass(java.lang.String):29:35 -> a
+    2:8:boolean allClassesExist(java.lang.String[]):44 -> a
+    9:9:void github.ryuunoakaihitomi.poweract.internal.util.DebugLog.d(java.lang.String,java.lang.String,java.lang.Throwable):32:32 -> a
+    9:9:java.lang.Class github.ryuunoakaihitomi.poweract.internal.util.ReflectionUtils.findClass(java.lang.String):35 -> a
+    9:9:boolean allClassesExist(java.lang.String[]):44 -> a
+    10:10:boolean allClassesExist(java.lang.String[]):45:45 -> a
+    11:14:java.lang.reflect.Field findField(java.lang.Class,java.lang.String):56:59 -> a
+    15:18:void github.ryuunoakaihitomi.poweract.internal.util.ReflectionUtils.setAccessible(java.lang.reflect.AccessibleObject):123:126 -> a
+    15:18:java.lang.reflect.Field findField(java.lang.Class,java.lang.String):64 -> a
+    19:22:java.lang.reflect.Method findMethod(java.lang.Class,java.lang.String,java.lang.Class[]):90:93 -> a
+    23:26:void github.ryuunoakaihitomi.poweract.internal.util.ReflectionUtils.setAccessible(java.lang.reflect.AccessibleObject):123:126 -> a
+    23:26:java.lang.reflect.Method findMethod(java.lang.Class,java.lang.String,java.lang.Class[]):98 -> a
+    27:31:java.lang.Object invokeMethod(java.lang.reflect.Method,java.lang.Object,java.lang.Object[]):109:113 -> a
+    32:33:boolean hasHiddenApiRestriction():118:119 -> a
+github.ryuunoakaihitomi.poweract.internal.util.ShizukuCompat -> github.ryuunoakaihitomi.poweract.internal.d.e:
+    int $r8$clinit -> a
+    1:2:void <clinit>():19:20 -> <clinit>
+github.ryuunoakaihitomi.poweract.internal.util.SystemCompat -> github.ryuunoakaihitomi.poweract.internal.d.f:
+    android.os.IPowerManager power -> a
+    1:1:void setPowerBinder(android.os.IBinder):20:20 -> a
+    2:8:void execShell(java.lang.String):61:67 -> a
+    9:11:void crash():73:73 -> a
+    1:8:void goToSleep():24:31 -> b
+    9:13:void reboot(java.lang.String):36:40 -> b
+    1:2:void rebootSafeMode():56:57 -> c
+    1:5:void shutdown():46:50 -> d
+github.ryuunoakaihitomi.poweract.internal.util.UserGuideRunnable -> github.ryuunoakaihitomi.poweract.internal.d.g:
+    java.lang.Runnable sUserGuideRunnable -> a
+    1:3:void set(java.lang.Runnable):23:25 -> a
+    4:5:void release():54:55 -> a
+    1:3:void run():35:37 -> b
+    4:9:void github.ryuunoakaihitomi.poweract.internal.util.UserGuideRunnable.runInternal():44:49 -> b
+    4:9:void run():39 -> b
+    1:6:void runInternal():44:49 -> c
+github.ryuunoakaihitomi.poweract.internal.util.UserGuideRunnable$1 -> github.ryuunoakaihitomi.poweract.internal.d.g$a:
+    java.util.Timer val$timer -> a
+    1:1:void <init>(java.util.Timer):25:25 -> <init>
+    1:2:void run():28:29 -> run
+github.ryuunoakaihitomi.poweract.internal.util.Utils -> github.ryuunoakaihitomi.poweract.internal.d.h:
+    1:20:boolean runSuJavaWithAppProcess(android.content.Context,java.lang.Class,java.lang.String[]):90:109 -> a
+    21:56:boolean runSuJavaWithAppProcess(android.content.Context,java.lang.Class,java.lang.String[]):108:143 -> a
+    57:77:boolean runSuJavaWithAppProcess(android.content.Context,java.lang.Class,java.lang.String[]):129:149 -> a
+    78:78:boolean runSuJavaWithAppProcess(android.content.Context,java.lang.Class,java.lang.String[]):148:148 -> a
+    79:81:boolean runSuJavaWithAppProcess(android.content.Context,java.lang.Class,java.lang.String[]):124:124 -> a
+    86:101:boolean runSuJavaWithAppProcess(android.content.Context,java.lang.Class,java.lang.String[]):129:129 -> a
+    116:116:boolean runSuJavaWithAppProcess(android.content.Context,java.lang.Class,java.lang.String[]):144:144 -> a
+    117:132:boolean runSuJavaWithAppProcess(android.content.Context,java.lang.Class,java.lang.String[]):129:129 -> a
+    147:150:boolean runSuJavaWithAppProcess(android.content.Context,java.lang.Class,java.lang.String[]):144:147 -> a
+    151:155:void setComponentEnabled(android.content.Context,java.lang.Class,boolean):154:158 -> a
+    156:156:boolean getComponentEnabled(android.content.Context,java.lang.Class):165:165 -> a
+    157:170:android.util.SparseArray getClassIntApiConstant(java.lang.Class,java.lang.String):170:183 -> a
+    171:171:void github.ryuunoakaihitomi.poweract.internal.util.DebugLog.w(java.lang.String,java.lang.String,java.lang.Throwable):52:52 -> a
+    171:171:android.util.SparseArray getClassIntApiConstant(java.lang.Class,java.lang.String):183 -> a
+    172:175:java.lang.String getClassIntApiConstantString(java.lang.Class,java.lang.String,int):198:201 -> a
+    176:176:java.lang.Object github.ryuunoakaihitomi.poweract.internal.util.ReflectionUtils.invokeStaticMethod(java.lang.reflect.Method,java.lang.Object[]):103:103 -> a
+    176:176:java.lang.String getClassIntApiConstantString(java.lang.Class,java.lang.String,int):199 -> a
+    177:183:java.lang.String getClassIntApiConstantString(java.lang.Class,java.lang.String,int):199:205 -> a
+    184:187:boolean isMainThread():245:248 -> a
+    1:10:boolean isAccessibilityServiceEnabled(android.content.Context,java.lang.Class):73:82 -> b
+    11:12:int randomNonZero():252:253 -> b
+github.ryuunoakaihitomi.poweract.internal.util.VerboseTimingLogger -> github.ryuunoakaihitomi.poweract.internal.d.i:
+    android.util.TimingLogger mLogger -> f
+    java.lang.reflect.Field mTagField -> d
+    java.lang.reflect.Field mLabelField -> e
+    java.lang.reflect.Field mSplitsField -> b
+    boolean mDisabled -> g
+    java.lang.reflect.Field mSplitLabelsField -> c
+    java.lang.reflect.Field mDisabledField -> a
+    1:4:void <init>(java.lang.String,java.lang.String):20:23 -> <init>
+    1:2:void reset(java.lang.String,java.lang.String):28:29 -> a
+    3:10:void github.ryuunoakaihitomi.poweract.internal.util.VerboseTimingLogger.reset():36:43 -> a
+    3:10:void reset(java.lang.String,java.lang.String):30 -> a
+    11:12:void addSplit(java.lang.String):47:48 -> a
+    13:15:void dumpToLog():52:54 -> a
+    16:16:void setDisabled(boolean):59:59 -> a
+    17:17:void set(java.lang.reflect.Field,java.lang.Object):72:72 -> a
+    18:20:void github.ryuunoakaihitomi.poweract.internal.util.ReflectionUtils.setField(java.lang.reflect.Field,java.lang.Object,java.lang.Object):80:82 -> a
+    18:20:void set(java.lang.reflect.Field,java.lang.Object):72 -> a
+    21:21:java.lang.Object get(java.lang.reflect.Field):76:76 -> a
+    22:22:java.lang.Object github.ryuunoakaihitomi.poweract.internal.util.ReflectionUtils.fetchField(java.lang.reflect.Field,java.lang.Object):71:71 -> a
+    22:22:java.lang.Object get(java.lang.reflect.Field):76 -> a
+    1:5:void initFields():64:68 -> b
